@@ -9,18 +9,20 @@
     <title>El Vapero - Vapers desechables y cigarrillos electrónicos | Envío gratis</title>
     <meta name="keywords"
         content="vapers desechables,cigarrillos electrónicos,vaper desechable,vaper con nicotina,muchas caladas,sabores vaper,puff,cigarrillos electrónicos desechables,caladas">
-    <!-- TODO: Confirmar con el propietario si la marca principal debe ser "El Vapero" o "ChuloVaper.es". -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@graph": [
                 {
-                    "@type": "OnlineStore",
+                    "@type": "Organization",
                     "@id": "https://www.elvapero.es/#organization",
                     "name": "El Vapero",
-                    "alternateName": "ChuloVaper.es",
                     "url": "https://www.elvapero.es/",
-                    "logo": "https://www.elvapero.es/apple-touch-icon.png",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://www.elvapero.es/favicon-96x96.png"
+                    },
+                    "image": "https://www.elvapero.es/favicon-96x96.png",
                     "email": "info@elvapero.es",
                     "telephone": "+34 663 167 736",
                     "contactPoint": [
@@ -29,19 +31,18 @@
                             "contactType": "customer support",
                             "email": "info@elvapero.es",
                             "telephone": "+34 663 167 736",
-                            "areaServed": "ES",
-                            "availableLanguage": [
-                                "es"
-                            ]
+                            "areaServed": {
+                                "@type": "Country",
+                                "name": "España"
+                            },
+                            "availableLanguage": "es-ES"
                         }
                     ],
                     "areaServed": {
                         "@type": "Country",
                         "name": "España"
                     },
-                    "availableLanguage": [
-                        "es"
-                    ]
+                    "availableLanguage": "es-ES"
                 },
                 {
                     "@type": "WebSite",
@@ -51,7 +52,12 @@
                     "publisher": {
                         "@id": "https://www.elvapero.es/#organization"
                     },
-                    "inLanguage": "es"
+                    "inLanguage": "es-ES",
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "España"
+                    },
+                    "availableLanguage": "es-ES"
                 },
                 {
                     "@type": "BreadcrumbList",
@@ -64,150 +70,615 @@
                             "item": "https://www.elvapero.es/"
                         }
                     ]
+                },
+                {
+                    "@type": "CollectionPage",
+                    "@id": "https://www.elvapero.es/#collection-page",
+                    "url": "https://www.elvapero.es/",
+                    "name": "El Vapero - Vapers desechables y cigarrillos electrónicos | Envío gratis",
+                    "description": "El Vapero - vapers desechables y cigarrillos electrónicos con muchas caladas. Envío gratis, novedades y ofertas en España.",
+                    "inLanguage": "es-ES",
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "España"
+                    },
+                    "availableLanguage": "es-ES",
+                    "isPartOf": {
+                        "@id": "https://www.elvapero.es/#website"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://www.elvapero.es/#breadcrumb"
+                    },
+                    "mainEntity": {
+                        "@id": "https://www.elvapero.es/#itemlist"
+                    }
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://www.elvapero.es/#itemlist",
+                    "name": "El Vapero - Vapers desechables y cigarrillos electrónicos | Envío gratis",
+                    "numberOfItems": 18,
+                    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/vapsolo-master-70k-caladas-70000#product",
+                                "name": "VapSolo Master 70K",
+                                "description": "Vaper desechable VapSolo Master 70K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/vapsolo-master-70k-caladas-70000",
+                                "image": "https://www.elvapero.es/images/VapSolo-Master-70K-Espana-Vaper-Desechable-Lemon-Lime-70000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "VapSolo"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/vapsolo-master-70k-caladas-70000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/vapsolo-triple-30k-caladas-30000#product",
+                                "name": "VapSolo Triple 30K",
+                                "description": "Vaper desechable VapSolo Triple 30K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/vapsolo-triple-30k-caladas-30000",
+                                "image": "https://www.elvapero.es/images/VapSolo-Triple-30K-Espana-Vaper-Desechable-STRAWBERRY-RASPBERRY-TRIPLE-MELON-SOUR-MANGO-PINEAPPLE-30000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "VapSolo"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/vapsolo-triple-30k-caladas-30000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/vapsolo-viking-12k-caladas-12000#product",
+                                "name": "VapSolo Viking 12K",
+                                "description": "Vaper desechable VapSolo Viking 12K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/vapsolo-viking-12k-caladas-12000",
+                                "image": "https://www.elvapero.es/images/VapSolo-Viking-12K-Espana-Vaper-Desechable-blueberry-ice-12000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "VapSolo"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/vapsolo-viking-12k-caladas-12000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/jnr-ragegorilla-55k-caladas-55000#product",
+                                "name": "Jnr RageGorilla 55K",
+                                "description": "Vaper desechable Jnr RageGorilla 55K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
+                                "image": "https://www.elvapero.es/images/Jnr-RageGorilla-55K-Espana-Vaper-Desechable-Double-Apple-55000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/jnr-quads-120k-caladas-120000#product",
+                                "name": "Jnr Quads 4 en 1 120K",
+                                "description": "Vaper desechable Jnr Quads 4 en 1 120K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/jnr-quads-120k-caladas-120000",
+                                "image": "https://www.elvapero.es/images/Jnr-Quads-120K-Espana-Vaper-Desechable-Grape-Ice-120000-Caladas.jpg",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/jnr-quads-120k-caladas-120000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/jnr-triple-110k-caladas-110000#product",
+                                "name": "Jnr Triple 3 en 1 110K",
+                                "description": "Vaper desechable Jnr Triple 3 en 1 110K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/jnr-triple-110k-caladas-110000",
+                                "image": "https://www.elvapero.es/images/Jnr-Triple-110K-Espana-Vaper-Desechable-Berry-Blast-110000-Caladas.jpg",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/jnr-triple-110k-caladas-110000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/adalya-adl-pro-360-20k-caladas-20000#product",
+                                "name": "Adalya AD-PRO360 20K",
+                                "description": "Vaper desechable Adalya AD-PRO360 20K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/adalya-adl-pro-360-20k-caladas-20000",
+                                "image": "https://www.elvapero.es/images/Adalya-AD-PRO360-20K-Espana-Vaper-Desechable-Blueberry-Raspberry-Lemon-20000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/adalya-adl-pro-360-20k-caladas-20000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/adalya-aurora-40k-caladas-40000#product",
+                                "name": "Adalya Aurora 40K",
+                                "description": "Vaper desechable Adalya Aurora 40K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/adalya-aurora-40k-caladas-40000",
+                                "image": "https://www.elvapero.es/images/Adalya-Aurora-40K-Espana-Vaper-Desechable-Love-66-40000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/adalya-aurora-40k-caladas-40000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 9,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/adalya-adl16000-16k-caladas-16000#product",
+                                "name": "Adalya ADL16000 16K",
+                                "description": "Vaper desechable Adalya ADL16000 16K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/adalya-adl16000-16k-caladas-16000",
+                                "image": "https://www.elvapero.es/images/Adalya-16K-Espana-Vaper-Desechable-Chewing-Gummelon-16000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/adalya-adl16000-16k-caladas-16000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 10,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/fumot-eco-2w1-50k-caladas-50000#product",
+                                "name": "Fumot Eco 2en1 50K",
+                                "description": "Vaper desechable Fumot Eco 2en1 50K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
+                                "image": "https://www.elvapero.es/images/Fumot-Eco-2in1-50K-Espana-Vaper-Desechable-Raspberry-Watermelon-50000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 11,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/randm-tornado-9k-caladas-9000#product",
+                                "name": "Fumot RandM Tornado 9K",
+                                "description": "Vaper desechable Fumot RandM Tornado 9K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/randm-tornado-9k-caladas-9000",
+                                "image": "https://www.elvapero.es/images/RandM-Tornado-9K-Espana-Vaper-Desechable-Orange-Soda-9000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/randm-tornado-9k-caladas-9000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 12,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/fumot-tornado-15k-caladas-15000#product",
+                                "name": "Fumot RandM Tornado 15K",
+                                "description": "Vaper desechable Fumot RandM Tornado 15K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/fumot-tornado-15k-caladas-15000",
+                                "image": "https://www.elvapero.es/images/Fumot-RandM-Tornado-15K-Espana-Vaper-Desechable-Cool-Mint-15000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/fumot-tornado-15k-caladas-15000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 13,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/al-fakher-crown-bar-hypermax-15k-caladas-15000#product",
+                                "name": "Al Fakher Crown Bar HyperMax 15K",
+                                "description": "Vaper desechable Al Fakher Crown Bar HyperMax 15K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/al-fakher-crown-bar-hypermax-15k-caladas-15000",
+                                "image": "https://www.elvapero.es/images/Al_Fakher-HyperMax-15K-Espana-Vaper-Desechable-berry-ice-15000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Fakher"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/al-fakher-crown-bar-hypermax-15k-caladas-15000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 14,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/al-fakher-crown-bar-e-hose-x-60k-caladas-60000#product",
+                                "name": "Al Fakher Crown Bar EHose X 60K",
+                                "description": "Vaper desechable Al Fakher Crown Bar EHose X 60K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/al-fakher-crown-bar-e-hose-x-60k-caladas-60000",
+                                "image": "https://www.elvapero.es/images/Al-Fakher-Crown-Bar-EHose-X-60K-Espana-Vaper-Desechable-berry-blue-60000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Fakher"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/al-fakher-crown-bar-e-hose-x-60k-caladas-60000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 15,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/al-fakher-crown-bar-ultra-25k-caladas-25000#product",
+                                "name": "Al Fakher Crown Bar Ultra 25K",
+                                "description": "Vaper desechable Al Fakher Crown Bar Ultra 25K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/al-fakher-crown-bar-ultra-25k-caladas-25000",
+                                "image": "https://www.elvapero.es/images/Al-Fakher-Crown-Bar-Ultra-25K-Espana-Vaper-Desechable-Lush-Ice-25000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Fakher"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/al-fakher-crown-bar-ultra-25k-caladas-25000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 16,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/ghost-galaxy-25k-caladas-25000#product",
+                                "name": "Ghost Galaxy 25K",
+                                "description": "Vaper desechable Ghost Galaxy 25K con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/ghost-galaxy-25k-caladas-25000",
+                                "image": "https://www.elvapero.es/images/Ghost-Galaxy-25K-Espana-Vaper-Desechable-Aussie-Lemonade-25000-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Ghost"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/ghost-galaxy-25k-caladas-25000",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 17,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/ghost-salts-10ml#product",
+                                "name": "Ghost Salts 10ml",
+                                "description": "Líquido para vapeo Ghost Salts 10ml para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/ghost-salts-10ml",
+                                "image": "https://www.elvapero.es/images/Ghost-Salts-10ml-Espana-Vaper-Desechable-Grape-Ice.jpg",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Ghost"
+                                },
+                                "category": "Líquidos para vapeo",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/ghost-salts-10ml",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 18,
+                            "item": {
+                                "@type": "Product",
+                                "@id": "https://www.elvapero.es/products/ghost-pro-3500-3-5k-caladas-3500#product",
+                                "name": "Ghost Pro 3500",
+                                "description": "Vaper desechable Ghost Pro 3500 con muchas caladas para usuarios adultos en España.",
+                                "url": "https://www.elvapero.es/products/ghost-pro-3500-3-5k-caladas-3500",
+                                "image": "https://www.elvapero.es/images/Ghost-Pro-3.5K-Espana-Vaper-Desechable-Blue-Razz-Ice-3500-Caladas.png",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Ghost"
+                                },
+                                "category": "Vapers desechables",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "url": "https://www.elvapero.es/products/ghost-pro-3500-3-5k-caladas-3500",
+                                    "priceCurrency": "EUR",
+                                    "availability": "https://schema.org/InStock",
+                                    "itemCondition": "https://schema.org/NewCondition",
+                                    "seller": {
+                                        "@id": "https://www.elvapero.es/#organization"
+                                    },
+                                    "areaServed": {
+                                        "@type": "Country",
+                                        "name": "España"
+                                    },
+                                    "availableDeliveryMethod": "https://schema.org/ParcelService"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "@id": "https://www.elvapero.es/#featured-products",
-            "name": "Productos destacados",
-            "url": "https://www.elvapero.es/",
-            "numberOfItems": 10,
-            "itemListOrder": "https://schema.org/ItemListOrderAscending",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "item": {
-                        "@type": "Product",
-                        "name": "VapSolo Master 70K",
-                        "url": "https://www.elvapero.es/products/vapsolo-master-70k-caladas-70000",
-                        "image": "https://www.elvapero.es/images/VapSolo-Master-70K-Espana-Vaper-Desechable-Lemon-Lime-70000-Caladas.png",
-                        "description": "Diseño premium con pantalla inteligente y sabor explosivo."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "item": {
-                        "@type": "Product",
-                        "name": "VapSolo Triple 30K",
-                        "url": "https://www.elvapero.es/products/vapsolo-triple-30k-caladas-30000",
-                        "image": "https://www.elvapero.es/images/VapSolo-Triple-30K-Espana-Vaper-Desechable-STRAWBERRY-RASPBERRY-TRIPLE-MELON-SOUR-MANGO-PINEAPPLE-30000-Caladas.png",
-                        "description": "Triple sabor en un solo dispositivo para una experiencia única."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "item": {
-                        "@type": "Product",
-                        "name": "VapSolo Viking 12K",
-                        "url": "https://www.elvapero.es/products/vapsolo-viking-12k-caladas-12000",
-                        "image": "https://www.elvapero.es/images/VapSolo-Viking-12K-Espana-Vaper-Desechable-blueberry-ice-12000-Caladas.png",
-                        "description": "Compacto y potente, ideal para llevar a cualquier lugar."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "item": {
-                        "@type": "Product",
-                        "name": "MerryMi Panda X 40K",
-                        "url": "https://www.elvapero.es/products/merrymi-panda-x-40k-caladas-40000",
-                        "image": "https://www.elvapero.es/images/MerryMi-Panda-X-40K-Espana-Vaper-Desechable-watermelon-b-pop-40000-Caladas.png",
-                        "description": "Vaper desechable con nicotina y 40000 caladas."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 5,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Jnr RageGorilla 55K",
-                        "url": "https://www.elvapero.es/products/jnr-ragegorilla-55k-caladas-55000",
-                        "image": "https://www.elvapero.es/images/JNR-RageGorilla-55K-Espana-Vaper-Desechable-Strawberry-Ice-55000-Caladas.png",
-                        "description": "Vaper desechable con nicotina."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 6,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Jnr Quads 4 en 1 120K",
-                        "url": "https://www.elvapero.es/products/jnr-quads-120k-caladas-120000",
-                        "image": "https://www.elvapero.es/images/JNR-Quads-4-en-1-120K-Espana-Vaper-Desechable-Summer-Peaches-Strawberry-Ice-Watermelon-Ice-Black-Ice-120000-Caladas.png",
-                        "description": "Vaper desechable con nicotina."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 7,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Fumot Eco 2en1 50K",
-                        "url": "https://www.elvapero.es/products/fumot-eco-2w1-50k-caladas-50000",
-                        "image": "https://www.elvapero.es/images/Fumot-Eco-2-en-1-50K-Espana-Vaper-Desechable-Banana-Ice-Black-Dragon-Ice-50000-Caladas.png",
-                        "description": "Vaper desechable con nicotina."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 8,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Adalya AD-PRO360 20K",
-                        "url": "https://www.elvapero.es/products/adalya-adl-pro-360-20k-caladas-20000",
-                        "image": "https://www.elvapero.es/images/Adalya-ADL-PRO360-20K-Espana-Vaper-Strawberry-splash-20000-Caladas.png",
-                        "description": "Vaper desechable con nicotina."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 9,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Ghost Galaxy 25K",
-                        "url": "https://www.elvapero.es/products/ghost-galaxy-25k-caladas-25000",
-                        "image": "https://www.elvapero.es/images/Ghost-Galaxy-25K-Espana-Vaper-Desechable-Aussie-Lemonade-25000-Caladas.png",
-                        "description": "Vaper desechable con nicotina."
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 10,
-                    "item": {
-                        "@type": "Product",
-                        "name": "Spaceman SP40000",
-                        "url": "https://www.elvapero.es/products/smok-spaceman-sp40000-40k-caladas-40000",
-                        "image": "https://www.elvapero.es/images/Smok-SPACEMAN-40K-Espana-Vaper-Desechable-Blueberry-Bubble-Gum-40000-Caladas.jpg",
-                        "description": "Vaper desechable con nicotina y 40000 caladas."
-                    }
-                }
-            ]
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Product",
-            "@id": "https://www.elvapero.es/#product-blur-30000",
-            "name": "Vaper desechable con nicotina Blur 30000 30K",
-            "url": "https://www.elvapero.es/products/blur-30000-30k-caladas-30000",
-            "image": [
-                "https://www.elvapero.es/images/Blur-30000-30K-Espana-Vaper-Desechable-Peach-Berry-Blueberry-Raspberry-Watermelon-Bubblegum-30000-Caladas.png"
-            ],
-            "description": "El Blur 30K es el modelo más avanzado de la serie, equipado con el Triple Flavour Mode que te permite alternar entre tres aromas excepcionales.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Blur"
-            },
-            "category": "Vapers desechables",
-            "itemCondition": "https://schema.org/NewCondition"
         }
     </script>
     <link rel="stylesheet" href="style.css">
@@ -1291,3 +1762,4 @@
 </body>
 
 </html>
+
